@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>REST API Client – Pogoda</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Aktualna pogoda i prognoza</h1>
+
+  <div id="search-box">
+    <label for="city-input">Miejscowość:</label>
+    <input type="text" id="city-input" placeholder="np. Warszawa">
+    <button id="weather-btn">Pogoda</button>
+  </div>
+
+  <div id="results">
+    <section id="current-weather">
+      <h2>Bieżąca pogoda</h2>
+      <div id="current-weather-content">
+
+      </div>
+    </section>
+
+    <section id="forecast-weather">
+      <h2>Prognoza (5 dni / co 3h)</h2>
+      <div id="forecast-content">
+
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
